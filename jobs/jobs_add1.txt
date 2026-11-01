@@ -1,0 +1,105 @@
+# ---- appended 2026-11-01: E1 RRB rows (d=64, lam=0.5 selected on SST-5 val)
+--tag E1 --train sst5 --method ae --d 64 --lam 0.5 --epochs 4 --seed 1 --out results/E1.jsonl
+--tag E1 --train sst5 --method bn --d 64 --epochs 4 --seed 1 --out results/E1.jsonl
+--tag E1 --train sst5 --method frozen_ae --d 64 --lam 0.5 --seed 1 --out results/E1.jsonl
+--tag E1 --train sst5 --method ae --d 64 --lam 0.5 --epochs 4 --seed 2 --out results/E1.jsonl
+--tag E1 --train sst5 --method bn --d 64 --epochs 4 --seed 2 --out results/E1.jsonl
+--tag E1 --train sst5 --method frozen_ae --d 64 --lam 0.5 --seed 2 --out results/E1.jsonl
+--tag E1 --train sst5 --method ae --d 64 --lam 0.5 --epochs 4 --seed 3 --out results/E1.jsonl
+--tag E1 --train sst5 --method bn --d 64 --epochs 4 --seed 3 --out results/E1.jsonl
+--tag E1 --train sst5 --method frozen_ae --d 64 --lam 0.5 --seed 3 --out results/E1.jsonl
+--tag E1 --train tweet --method ae --d 64 --lam 0.5 --epochs 3 --seed 1 --out results/E1.jsonl
+--tag E1 --train tweet --method bn --d 64 --epochs 3 --seed 1 --out results/E1.jsonl
+--tag E1 --train tweet --method frozen_ae --d 64 --lam 0.5 --seed 1 --out results/E1.jsonl
+--tag E1 --train tweet --method ae --d 64 --lam 0.5 --epochs 3 --seed 2 --out results/E1.jsonl
+--tag E1 --train tweet --method bn --d 64 --epochs 3 --seed 2 --out results/E1.jsonl
+--tag E1 --train tweet --method frozen_ae --d 64 --lam 0.5 --seed 2 --out results/E1.jsonl
+--tag E1 --train tweet --method ae --d 64 --lam 0.5 --epochs 3 --seed 3 --out results/E1.jsonl
+--tag E1 --train tweet --method bn --d 64 --epochs 3 --seed 3 --out results/E1.jsonl
+--tag E1 --train tweet --method frozen_ae --d 64 --lam 0.5 --seed 3 --out results/E1.jsonl
+--tag E1 --train amz_all --method ae --d 64 --lam 0.5 --epochs 3 --seed 1 --out results/E1.jsonl
+--tag E1 --train amz_all --method bn --d 64 --epochs 3 --seed 1 --out results/E1.jsonl
+--tag E1 --train amz_all --method frozen_ae --d 64 --lam 0.5 --seed 1 --out results/E1.jsonl
+--tag E1 --train amz_all --method ae --d 64 --lam 0.5 --epochs 3 --seed 2 --out results/E1.jsonl
+--tag E1 --train amz_all --method bn --d 64 --epochs 3 --seed 2 --out results/E1.jsonl
+--tag E1 --train amz_all --method frozen_ae --d 64 --lam 0.5 --seed 2 --out results/E1.jsonl
+--tag E1 --train amz_all --method ae --d 64 --lam 0.5 --epochs 3 --seed 3 --out results/E1.jsonl
+--tag E1 --train amz_all --method bn --d 64 --epochs 3 --seed 3 --out results/E1.jsonl
+--tag E1 --train amz_all --method frozen_ae --d 64 --lam 0.5 --seed 3 --out results/E1.jsonl
+# ---- E3 cross-domain: train on one Amazon domain, test on all four
+--tag E3 --train amz_Books --tests amz_Books,amz_Electronics,amz_Home_and_Kitchen,amz_Movies_and_TV --method tfidf --out results/E3.jsonl
+--tag E3 --train amz_Books --tests amz_Books,amz_Electronics,amz_Home_and_Kitchen,amz_Movies_and_TV --method ft_linear --epochs 4 --seed 1 --out results/E3.jsonl
+--tag E3 --train amz_Books --tests amz_Books,amz_Electronics,amz_Home_and_Kitchen,amz_Movies_and_TV --method bn --d 64 --epochs 4 --seed 1 --out results/E3.jsonl
+--tag E3 --train amz_Books --tests amz_Books,amz_Electronics,amz_Home_and_Kitchen,amz_Movies_and_TV --method ae --d 64 --lam 0.5 --epochs 4 --seed 1 --out results/E3.jsonl
+--tag E3 --train amz_Books --tests amz_Books,amz_Electronics,amz_Home_and_Kitchen,amz_Movies_and_TV --method ae --d 64 --lam 2.0 --epochs 4 --seed 1 --out results/E3.jsonl
+--tag E3 --train amz_Books --tests amz_Books,amz_Electronics,amz_Home_and_Kitchen,amz_Movies_and_TV --method frozen_linear --epochs 4 --seed 1 --out results/E3.jsonl
+--tag E3 --train amz_Books --tests amz_Books,amz_Electronics,amz_Home_and_Kitchen,amz_Movies_and_TV --method frozen_ae --d 64 --lam 0.5 --epochs 4 --seed 1 --out results/E3.jsonl
+--tag E3 --train amz_Books --tests amz_Books,amz_Electronics,amz_Home_and_Kitchen,amz_Movies_and_TV --method ft_linear --epochs 4 --seed 2 --out results/E3.jsonl
+--tag E3 --train amz_Books --tests amz_Books,amz_Electronics,amz_Home_and_Kitchen,amz_Movies_and_TV --method bn --d 64 --epochs 4 --seed 2 --out results/E3.jsonl
+--tag E3 --train amz_Books --tests amz_Books,amz_Electronics,amz_Home_and_Kitchen,amz_Movies_and_TV --method ae --d 64 --lam 0.5 --epochs 4 --seed 2 --out results/E3.jsonl
+--tag E3 --train amz_Books --tests amz_Books,amz_Electronics,amz_Home_and_Kitchen,amz_Movies_and_TV --method ae --d 64 --lam 2.0 --epochs 4 --seed 2 --out results/E3.jsonl
+--tag E3 --train amz_Books --tests amz_Books,amz_Electronics,amz_Home_and_Kitchen,amz_Movies_and_TV --method frozen_linear --epochs 4 --seed 2 --out results/E3.jsonl
+--tag E3 --train amz_Books --tests amz_Books,amz_Electronics,amz_Home_and_Kitchen,amz_Movies_and_TV --method frozen_ae --d 64 --lam 0.5 --epochs 4 --seed 2 --out results/E3.jsonl
+--tag E3 --train amz_Books --tests amz_Books,amz_Electronics,amz_Home_and_Kitchen,amz_Movies_and_TV --method ft_linear --epochs 4 --seed 3 --out results/E3.jsonl
+--tag E3 --train amz_Books --tests amz_Books,amz_Electronics,amz_Home_and_Kitchen,amz_Movies_and_TV --method bn --d 64 --epochs 4 --seed 3 --out results/E3.jsonl
+--tag E3 --train amz_Books --tests amz_Books,amz_Electronics,amz_Home_and_Kitchen,amz_Movies_and_TV --method ae --d 64 --lam 0.5 --epochs 4 --seed 3 --out results/E3.jsonl
+--tag E3 --train amz_Books --tests amz_Books,amz_Electronics,amz_Home_and_Kitchen,amz_Movies_and_TV --method ae --d 64 --lam 2.0 --epochs 4 --seed 3 --out results/E3.jsonl
+--tag E3 --train amz_Books --tests amz_Books,amz_Electronics,amz_Home_and_Kitchen,amz_Movies_and_TV --method frozen_linear --epochs 4 --seed 3 --out results/E3.jsonl
+--tag E3 --train amz_Books --tests amz_Books,amz_Electronics,amz_Home_and_Kitchen,amz_Movies_and_TV --method frozen_ae --d 64 --lam 0.5 --epochs 4 --seed 3 --out results/E3.jsonl
+--tag E3 --train amz_Electronics --tests amz_Books,amz_Electronics,amz_Home_and_Kitchen,amz_Movies_and_TV --method tfidf --out results/E3.jsonl
+--tag E3 --train amz_Electronics --tests amz_Books,amz_Electronics,amz_Home_and_Kitchen,amz_Movies_and_TV --method ft_linear --epochs 4 --seed 1 --out results/E3.jsonl
+--tag E3 --train amz_Electronics --tests amz_Books,amz_Electronics,amz_Home_and_Kitchen,amz_Movies_and_TV --method bn --d 64 --epochs 4 --seed 1 --out results/E3.jsonl
+--tag E3 --train amz_Electronics --tests amz_Books,amz_Electronics,amz_Home_and_Kitchen,amz_Movies_and_TV --method ae --d 64 --lam 0.5 --epochs 4 --seed 1 --out results/E3.jsonl
+--tag E3 --train amz_Electronics --tests amz_Books,amz_Electronics,amz_Home_and_Kitchen,amz_Movies_and_TV --method ae --d 64 --lam 2.0 --epochs 4 --seed 1 --out results/E3.jsonl
+--tag E3 --train amz_Electronics --tests amz_Books,amz_Electronics,amz_Home_and_Kitchen,amz_Movies_and_TV --method frozen_linear --epochs 4 --seed 1 --out results/E3.jsonl
+--tag E3 --train amz_Electronics --tests amz_Books,amz_Electronics,amz_Home_and_Kitchen,amz_Movies_and_TV --method frozen_ae --d 64 --lam 0.5 --epochs 4 --seed 1 --out results/E3.jsonl
+--tag E3 --train amz_Electronics --tests amz_Books,amz_Electronics,amz_Home_and_Kitchen,amz_Movies_and_TV --method ft_linear --epochs 4 --seed 2 --out results/E3.jsonl
+--tag E3 --train amz_Electronics --tests amz_Books,amz_Electronics,amz_Home_and_Kitchen,amz_Movies_and_TV --method bn --d 64 --epochs 4 --seed 2 --out results/E3.jsonl
+--tag E3 --train amz_Electronics --tests amz_Books,amz_Electronics,amz_Home_and_Kitchen,amz_Movies_and_TV --method ae --d 64 --lam 0.5 --epochs 4 --seed 2 --out results/E3.jsonl
+--tag E3 --train amz_Electronics --tests amz_Books,amz_Electronics,amz_Home_and_Kitchen,amz_Movies_and_TV --method ae --d 64 --lam 2.0 --epochs 4 --seed 2 --out results/E3.jsonl
+--tag E3 --train amz_Electronics --tests amz_Books,amz_Electronics,amz_Home_and_Kitchen,amz_Movies_and_TV --method frozen_linear --epochs 4 --seed 2 --out results/E3.jsonl
+--tag E3 --train amz_Electronics --tests amz_Books,amz_Electronics,amz_Home_and_Kitchen,amz_Movies_and_TV --method frozen_ae --d 64 --lam 0.5 --epochs 4 --seed 2 --out results/E3.jsonl
+--tag E3 --train amz_Electronics --tests amz_Books,amz_Electronics,amz_Home_and_Kitchen,amz_Movies_and_TV --method ft_linear --epochs 4 --seed 3 --out results/E3.jsonl
+--tag E3 --train amz_Electronics --tests amz_Books,amz_Electronics,amz_Home_and_Kitchen,amz_Movies_and_TV --method bn --d 64 --epochs 4 --seed 3 --out results/E3.jsonl
+--tag E3 --train amz_Electronics --tests amz_Books,amz_Electronics,amz_Home_and_Kitchen,amz_Movies_and_TV --method ae --d 64 --lam 0.5 --epochs 4 --seed 3 --out results/E3.jsonl
+--tag E3 --train amz_Electronics --tests amz_Books,amz_Electronics,amz_Home_and_Kitchen,amz_Movies_and_TV --method ae --d 64 --lam 2.0 --epochs 4 --seed 3 --out results/E3.jsonl
+--tag E3 --train amz_Electronics --tests amz_Books,amz_Electronics,amz_Home_and_Kitchen,amz_Movies_and_TV --method frozen_linear --epochs 4 --seed 3 --out results/E3.jsonl
+--tag E3 --train amz_Electronics --tests amz_Books,amz_Electronics,amz_Home_and_Kitchen,amz_Movies_and_TV --method frozen_ae --d 64 --lam 0.5 --epochs 4 --seed 3 --out results/E3.jsonl
+--tag E3 --train amz_Home_and_Kitchen --tests amz_Books,amz_Electronics,amz_Home_and_Kitchen,amz_Movies_and_TV --method tfidf --out results/E3.jsonl
+--tag E3 --train amz_Home_and_Kitchen --tests amz_Books,amz_Electronics,amz_Home_and_Kitchen,amz_Movies_and_TV --method ft_linear --epochs 4 --seed 1 --out results/E3.jsonl
+--tag E3 --train amz_Home_and_Kitchen --tests amz_Books,amz_Electronics,amz_Home_and_Kitchen,amz_Movies_and_TV --method bn --d 64 --epochs 4 --seed 1 --out results/E3.jsonl
+--tag E3 --train amz_Home_and_Kitchen --tests amz_Books,amz_Electronics,amz_Home_and_Kitchen,amz_Movies_and_TV --method ae --d 64 --lam 0.5 --epochs 4 --seed 1 --out results/E3.jsonl
+--tag E3 --train amz_Home_and_Kitchen --tests amz_Books,amz_Electronics,amz_Home_and_Kitchen,amz_Movies_and_TV --method ae --d 64 --lam 2.0 --epochs 4 --seed 1 --out results/E3.jsonl
+--tag E3 --train amz_Home_and_Kitchen --tests amz_Books,amz_Electronics,amz_Home_and_Kitchen,amz_Movies_and_TV --method frozen_linear --epochs 4 --seed 1 --out results/E3.jsonl
+--tag E3 --train amz_Home_and_Kitchen --tests amz_Books,amz_Electronics,amz_Home_and_Kitchen,amz_Movies_and_TV --method frozen_ae --d 64 --lam 0.5 --epochs 4 --seed 1 --out results/E3.jsonl
+--tag E3 --train amz_Home_and_Kitchen --tests amz_Books,amz_Electronics,amz_Home_and_Kitchen,amz_Movies_and_TV --method ft_linear --epochs 4 --seed 2 --out results/E3.jsonl
+--tag E3 --train amz_Home_and_Kitchen --tests amz_Books,amz_Electronics,amz_Home_and_Kitchen,amz_Movies_and_TV --method bn --d 64 --epochs 4 --seed 2 --out results/E3.jsonl
+--tag E3 --train amz_Home_and_Kitchen --tests amz_Books,amz_Electronics,amz_Home_and_Kitchen,amz_Movies_and_TV --method ae --d 64 --lam 0.5 --epochs 4 --seed 2 --out results/E3.jsonl
+--tag E3 --train amz_Home_and_Kitchen --tests amz_Books,amz_Electronics,amz_Home_and_Kitchen,amz_Movies_and_TV --method ae --d 64 --lam 2.0 --epochs 4 --seed 2 --out results/E3.jsonl
+--tag E3 --train amz_Home_and_Kitchen --tests amz_Books,amz_Electronics,amz_Home_and_Kitchen,amz_Movies_and_TV --method frozen_linear --epochs 4 --seed 2 --out results/E3.jsonl
+--tag E3 --train amz_Home_and_Kitchen --tests amz_Books,amz_Electronics,amz_Home_and_Kitchen,amz_Movies_and_TV --method frozen_ae --d 64 --lam 0.5 --epochs 4 --seed 2 --out results/E3.jsonl
+--tag E3 --train amz_Home_and_Kitchen --tests amz_Books,amz_Electronics,amz_Home_and_Kitchen,amz_Movies_and_TV --method ft_linear --epochs 4 --seed 3 --out results/E3.jsonl
+--tag E3 --train amz_Home_and_Kitchen --tests amz_Books,amz_Electronics,amz_Home_and_Kitchen,amz_Movies_and_TV --method bn --d 64 --epochs 4 --seed 3 --out results/E3.jsonl
+--tag E3 --train amz_Home_and_Kitchen --tests amz_Books,amz_Electronics,amz_Home_and_Kitchen,amz_Movies_and_TV --method ae --d 64 --lam 0.5 --epochs 4 --seed 3 --out results/E3.jsonl
+--tag E3 --train amz_Home_and_Kitchen --tests amz_Books,amz_Electronics,amz_Home_and_Kitchen,amz_Movies_and_TV --method ae --d 64 --lam 2.0 --epochs 4 --seed 3 --out results/E3.jsonl
+--tag E3 --train amz_Home_and_Kitchen --tests amz_Books,amz_Electronics,amz_Home_and_Kitchen,amz_Movies_and_TV --method frozen_linear --epochs 4 --seed 3 --out results/E3.jsonl
+--tag E3 --train amz_Home_and_Kitchen --tests amz_Books,amz_Electronics,amz_Home_and_Kitchen,amz_Movies_and_TV --method frozen_ae --d 64 --lam 0.5 --epochs 4 --seed 3 --out results/E3.jsonl
+--tag E3 --train amz_Movies_and_TV --tests amz_Books,amz_Electronics,amz_Home_and_Kitchen,amz_Movies_and_TV --method tfidf --out results/E3.jsonl
+--tag E3 --train amz_Movies_and_TV --tests amz_Books,amz_Electronics,amz_Home_and_Kitchen,amz_Movies_and_TV --method ft_linear --epochs 4 --seed 1 --out results/E3.jsonl
+--tag E3 --train amz_Movies_and_TV --tests amz_Books,amz_Electronics,amz_Home_and_Kitchen,amz_Movies_and_TV --method bn --d 64 --epochs 4 --seed 1 --out results/E3.jsonl
+--tag E3 --train amz_Movies_and_TV --tests amz_Books,amz_Electronics,amz_Home_and_Kitchen,amz_Movies_and_TV --method ae --d 64 --lam 0.5 --epochs 4 --seed 1 --out results/E3.jsonl
+--tag E3 --train amz_Movies_and_TV --tests amz_Books,amz_Electronics,amz_Home_and_Kitchen,amz_Movies_and_TV --method ae --d 64 --lam 2.0 --epochs 4 --seed 1 --out results/E3.jsonl
+--tag E3 --train amz_Movies_and_TV --tests amz_Books,amz_Electronics,amz_Home_and_Kitchen,amz_Movies_and_TV --method frozen_linear --epochs 4 --seed 1 --out results/E3.jsonl
+--tag E3 --train amz_Movies_and_TV --tests amz_Books,amz_Electronics,amz_Home_and_Kitchen,amz_Movies_and_TV --method frozen_ae --d 64 --lam 0.5 --epochs 4 --seed 1 --out results/E3.jsonl
+--tag E3 --train amz_Movies_and_TV --tests amz_Books,amz_Electronics,amz_Home_and_Kitchen,amz_Movies_and_TV --method ft_linear --epochs 4 --seed 2 --out results/E3.jsonl
+--tag E3 --train amz_Movies_and_TV --tests amz_Books,amz_Electronics,amz_Home_and_Kitchen,amz_Movies_and_TV --method bn --d 64 --epochs 4 --seed 2 --out results/E3.jsonl
+--tag E3 --train amz_Movies_and_TV --tests amz_Books,amz_Electronics,amz_Home_and_Kitchen,amz_Movies_and_TV --method ae --d 64 --lam 0.5 --epochs 4 --seed 2 --out results/E3.jsonl
+--tag E3 --train amz_Movies_and_TV --tests amz_Books,amz_Electronics,amz_Home_and_Kitchen,amz_Movies_and_TV --method ae --d 64 --lam 2.0 --epochs 4 --seed 2 --out results/E3.jsonl
+--tag E3 --train amz_Movies_and_TV --tests amz_Books,amz_Electronics,amz_Home_and_Kitchen,amz_Movies_and_TV --method frozen_linear --epochs 4 --seed 2 --out results/E3.jsonl
+--tag E3 --train amz_Movies_and_TV --tests amz_Books,amz_Electronics,amz_Home_and_Kitchen,amz_Movies_and_TV --method frozen_ae --d 64 --lam 0.5 --epochs 4 --seed 2 --out results/E3.jsonl
+--tag E3 --train amz_Movies_and_TV --tests amz_Books,amz_Electronics,amz_Home_and_Kitchen,amz_Movies_and_TV --method ft_linear --epochs 4 --seed 3 --out results/E3.jsonl
+--tag E3 --train amz_Movies_and_TV --tests amz_Books,amz_Electronics,amz_Home_and_Kitchen,amz_Movies_and_TV --method bn --d 64 --epochs 4 --seed 3 --out results/E3.jsonl
+--tag E3 --train amz_Movies_and_TV --tests amz_Books,amz_Electronics,amz_Home_and_Kitchen,amz_Movies_and_TV --method ae --d 64 --lam 0.5 --epochs 4 --seed 3 --out results/E3.jsonl
+--tag E3 --train amz_Movies_and_TV --tests amz_Books,amz_Electronics,amz_Home_and_Kitchen,amz_Movies_and_TV --method ae --d 64 --lam 2.0 --epochs 4 --seed 3 --out results/E3.jsonl
+--tag E3 --train amz_Movies_and_TV --tests amz_Books,amz_Electronics,amz_Home_and_Kitchen,amz_Movies_and_TV --method frozen_linear --epochs 4 --seed 3 --out results/E3.jsonl
+--tag E3 --train amz_Movies_and_TV --tests amz_Books,amz_Electronics,amz_Home_and_Kitchen,amz_Movies_and_TV --method frozen_ae --d 64 --lam 0.5 --epochs 4 --seed 3 --out results/E3.jsonl

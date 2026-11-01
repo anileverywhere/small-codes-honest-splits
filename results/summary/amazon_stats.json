@@ -1,0 +1,98 @@
+{
+ "Books": {
+  "raw": 273501,
+  "dedup": 267304,
+  "dup_removed": 6197,
+  "train": 10000,
+  "val": 1500,
+  "test": 3000,
+  "train_counts": [
+   2000,
+   2000,
+   2000,
+   2000,
+   2000
+  ],
+  "test_counts": [
+   600,
+   600,
+   600,
+   600,
+   600
+  ],
+  "cutoff_ts": 1571333852374,
+  "test_products_overlap": 0
+ },
+ "Electronics": {
+  "raw": 278169,
+  "dedup": 274486,
+  "dup_removed": 3683,
+  "train": 10000,
+  "val": 1500,
+  "test": 3000,
+  "train_counts": [
+   2000,
+   2000,
+   2000,
+   2000,
+   2000
+  ],
+  "test_counts": [
+   600,
+   600,
+   600,
+   600,
+   600
+  ],
+  "cutoff_ts": 1612293398282,
+  "test_products_overlap": 0
+ },
+ "Home_and_Kitchen": {
+  "raw": 283814,
+  "dedup": 281648,
+  "dup_removed": 2166,
+  "train": 10000,
+  "val": 1500,
+  "test": 3000,
+  "train_counts": [
+   2000,
+   2000,
+   2000,
+   2000,
+   2000
+  ],
+  "test_counts": [
+   600,
+   600,
+   600,
+   600,
+   600
+  ],
+  "cutoff_ts": 1634765011661,
+  "test_products_overlap": 0
+ },
+ "Movies_and_TV": {
+  "raw": 258672,
+  "dedup": 251455,
+  "dup_removed": 7217,
+  "train": 10000,
+  "val": 1500,
+  "test": 3000,
+  "train_counts": [
+   2000,
+   2000,
+   2000,
+   2000,
+   2000
+  ],
+  "test_counts": [
+   600,
+   600,
+   600,
+   600,
+   600
+  ],
+  "cutoff_ts": 1558271524727,
+  "test_products_overlap": 0
+ }
+}

@@ -1,0 +1,11 @@
+# versions used for the paper (CUDA build of torch: install from https://pytorch.org for your CUDA version)
+torch==2.15.0
+transformers==5.22.1
+datasets==5.1.0
+peft==0.21.2
+accelerate==1.15.0
+scikit-learn==1.9.1
+pandas==3.1.0
+numpy==2.4.6
+scipy==1.17.1
+matplotlib==3.11.2

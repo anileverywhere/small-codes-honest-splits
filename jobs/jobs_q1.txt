@@ -1,0 +1,105 @@
+--tag A --train sst5 --method bn --d 16 --seed 1 --out results/A.jsonl
+--tag A --train sst5 --method ae --d 16 --lam 0.1 --seed 1 --out results/A.jsonl
+--tag A --train sst5 --method ae --d 16 --lam 0.5 --seed 1 --out results/A.jsonl
+--tag A --train sst5 --method ae --d 16 --lam 1.0 --seed 1 --out results/A.jsonl
+--tag A --train sst5 --method ae --d 16 --lam 2.0 --seed 1 --out results/A.jsonl
+--tag A --train sst5 --method bn --d 32 --seed 1 --out results/A.jsonl
+--tag A --train sst5 --method ae --d 32 --lam 0.1 --seed 1 --out results/A.jsonl
+--tag A --train sst5 --method ae --d 32 --lam 0.5 --seed 1 --out results/A.jsonl
+--tag A --train sst5 --method ae --d 32 --lam 1.0 --seed 1 --out results/A.jsonl
+--tag A --train sst5 --method ae --d 32 --lam 2.0 --seed 1 --out results/A.jsonl
+--tag A --train sst5 --method bn --d 64 --seed 1 --out results/A.jsonl
+--tag A --train sst5 --method ae --d 64 --lam 0.1 --seed 1 --out results/A.jsonl
+--tag A --train sst5 --method ae --d 64 --lam 0.5 --seed 1 --out results/A.jsonl
+--tag A --train sst5 --method ae --d 64 --lam 1.0 --seed 1 --out results/A.jsonl
+--tag A --train sst5 --method ae --d 64 --lam 2.0 --seed 1 --out results/A.jsonl
+--tag A --train sst5 --method bn --d 128 --seed 1 --out results/A.jsonl
+--tag A --train sst5 --method ae --d 128 --lam 0.1 --seed 1 --out results/A.jsonl
+--tag A --train sst5 --method ae --d 128 --lam 0.5 --seed 1 --out results/A.jsonl
+--tag A --train sst5 --method ae --d 128 --lam 1.0 --seed 1 --out results/A.jsonl
+--tag A --train sst5 --method ae --d 128 --lam 2.0 --seed 1 --out results/A.jsonl
+--tag A --train sst5 --method bn --d 256 --seed 1 --out results/A.jsonl
+--tag A --train sst5 --method ae --d 256 --lam 0.1 --seed 1 --out results/A.jsonl
+--tag A --train sst5 --method ae --d 256 --lam 0.5 --seed 1 --out results/A.jsonl
+--tag A --train sst5 --method ae --d 256 --lam 1.0 --seed 1 --out results/A.jsonl
+--tag A --train sst5 --method ae --d 256 --lam 2.0 --seed 1 --out results/A.jsonl
+--tag A --train sst5 --method bn --d 16 --seed 2 --out results/A.jsonl
+--tag A --train sst5 --method ae --d 16 --lam 0.1 --seed 2 --out results/A.jsonl
+--tag A --train sst5 --method ae --d 16 --lam 0.5 --seed 2 --out results/A.jsonl
+--tag A --train sst5 --method ae --d 16 --lam 1.0 --seed 2 --out results/A.jsonl
+--tag A --train sst5 --method ae --d 16 --lam 2.0 --seed 2 --out results/A.jsonl
+--tag A --train sst5 --method bn --d 32 --seed 2 --out results/A.jsonl
+--tag A --train sst5 --method ae --d 32 --lam 0.1 --seed 2 --out results/A.jsonl
+--tag A --train sst5 --method ae --d 32 --lam 0.5 --seed 2 --out results/A.jsonl
+--tag A --train sst5 --method ae --d 32 --lam 1.0 --seed 2 --out results/A.jsonl
+--tag A --train sst5 --method ae --d 32 --lam 2.0 --seed 2 --out results/A.jsonl
+--tag A --train sst5 --method bn --d 64 --seed 2 --out results/A.jsonl
+--tag A --train sst5 --method ae --d 64 --lam 0.1 --seed 2 --out results/A.jsonl
+--tag A --train sst5 --method ae --d 64 --lam 0.5 --seed 2 --out results/A.jsonl
+--tag A --train sst5 --method ae --d 64 --lam 1.0 --seed 2 --out results/A.jsonl
+--tag A --train sst5 --method ae --d 64 --lam 2.0 --seed 2 --out results/A.jsonl
+--tag A --train sst5 --method bn --d 128 --seed 2 --out results/A.jsonl
+--tag A --train sst5 --method ae --d 128 --lam 0.1 --seed 2 --out results/A.jsonl
+--tag A --train sst5 --method ae --d 128 --lam 0.5 --seed 2 --out results/A.jsonl
+--tag A --train sst5 --method ae --d 128 --lam 1.0 --seed 2 --out results/A.jsonl
+--tag A --train sst5 --method ae --d 128 --lam 2.0 --seed 2 --out results/A.jsonl
+--tag A --train sst5 --method bn --d 256 --seed 2 --out results/A.jsonl
+--tag A --train sst5 --method ae --d 256 --lam 0.1 --seed 2 --out results/A.jsonl
+--tag A --train sst5 --method ae --d 256 --lam 0.5 --seed 2 --out results/A.jsonl
+--tag A --train sst5 --method ae --d 256 --lam 1.0 --seed 2 --out results/A.jsonl
+--tag A --train sst5 --method ae --d 256 --lam 2.0 --seed 2 --out results/A.jsonl
+--tag A --train sst5 --method bn --d 16 --seed 3 --out results/A.jsonl
+--tag A --train sst5 --method ae --d 16 --lam 0.1 --seed 3 --out results/A.jsonl
+--tag A --train sst5 --method ae --d 16 --lam 0.5 --seed 3 --out results/A.jsonl
+--tag A --train sst5 --method ae --d 16 --lam 1.0 --seed 3 --out results/A.jsonl
+--tag A --train sst5 --method ae --d 16 --lam 2.0 --seed 3 --out results/A.jsonl
+--tag A --train sst5 --method bn --d 32 --seed 3 --out results/A.jsonl
+--tag A --train sst5 --method ae --d 32 --lam 0.1 --seed 3 --out results/A.jsonl
+--tag A --train sst5 --method ae --d 32 --lam 0.5 --seed 3 --out results/A.jsonl
+--tag A --train sst5 --method ae --d 32 --lam 1.0 --seed 3 --out results/A.jsonl
+--tag A --train sst5 --method ae --d 32 --lam 2.0 --seed 3 --out results/A.jsonl
+--tag A --train sst5 --method bn --d 64 --seed 3 --out results/A.jsonl
+--tag A --train sst5 --method ae --d 64 --lam 0.1 --seed 3 --out results/A.jsonl
+--tag A --train sst5 --method ae --d 64 --lam 0.5 --seed 3 --out results/A.jsonl
+--tag A --train sst5 --method ae --d 64 --lam 1.0 --seed 3 --out results/A.jsonl
+--tag A --train sst5 --method ae --d 64 --lam 2.0 --seed 3 --out results/A.jsonl
+--tag A --train sst5 --method bn --d 128 --seed 3 --out results/A.jsonl
+--tag A --train sst5 --method ae --d 128 --lam 0.1 --seed 3 --out results/A.jsonl
+--tag A --train sst5 --method ae --d 128 --lam 0.5 --seed 3 --out results/A.jsonl
+--tag A --train sst5 --method ae --d 128 --lam 1.0 --seed 3 --out results/A.jsonl
+--tag A --train sst5 --method ae --d 128 --lam 2.0 --seed 3 --out results/A.jsonl
+--tag A --train sst5 --method bn --d 256 --seed 3 --out results/A.jsonl
+--tag A --train sst5 --method ae --d 256 --lam 0.1 --seed 3 --out results/A.jsonl
+--tag A --train sst5 --method ae --d 256 --lam 0.5 --seed 3 --out results/A.jsonl
+--tag A --train sst5 --method ae --d 256 --lam 1.0 --seed 3 --out results/A.jsonl
+--tag A --train sst5 --method ae --d 256 --lam 2.0 --seed 3 --out results/A.jsonl
+--tag E1 --train sst5 --method tfidf --out results/E1.jsonl
+--tag E1 --train sst5 --method ft_linear --epochs 4 --seed 1 --out results/E1.jsonl
+--tag E1 --train sst5 --method frozen_linear --epochs 4 --seed 1 --out results/E1.jsonl
+--tag E1 --train sst5 --method lora_linear --epochs 4 --seed 1 --out results/E1.jsonl
+--tag E1 --train sst5 --method ft_linear --epochs 4 --seed 2 --out results/E1.jsonl
+--tag E1 --train sst5 --method frozen_linear --epochs 4 --seed 2 --out results/E1.jsonl
+--tag E1 --train sst5 --method lora_linear --epochs 4 --seed 2 --out results/E1.jsonl
+--tag E1 --train sst5 --method ft_linear --epochs 4 --seed 3 --out results/E1.jsonl
+--tag E1 --train sst5 --method frozen_linear --epochs 4 --seed 3 --out results/E1.jsonl
+--tag E1 --train sst5 --method lora_linear --epochs 4 --seed 3 --out results/E1.jsonl
+--tag E1 --train tweet --method tfidf --out results/E1.jsonl
+--tag E1 --train tweet --method ft_linear --epochs 3 --seed 1 --out results/E1.jsonl
+--tag E1 --train tweet --method frozen_linear --epochs 3 --seed 1 --out results/E1.jsonl
+--tag E1 --train tweet --method lora_linear --epochs 3 --seed 1 --out results/E1.jsonl
+--tag E1 --train tweet --method ft_linear --epochs 3 --seed 2 --out results/E1.jsonl
+--tag E1 --train tweet --method frozen_linear --epochs 3 --seed 2 --out results/E1.jsonl
+--tag E1 --train tweet --method lora_linear --epochs 3 --seed 2 --out results/E1.jsonl
+--tag E1 --train tweet --method ft_linear --epochs 3 --seed 3 --out results/E1.jsonl
+--tag E1 --train tweet --method frozen_linear --epochs 3 --seed 3 --out results/E1.jsonl
+--tag E1 --train tweet --method lora_linear --epochs 3 --seed 3 --out results/E1.jsonl
+--tag E1 --train amz_all --method tfidf --out results/E1.jsonl
+--tag E1 --train amz_all --method ft_linear --epochs 3 --seed 1 --out results/E1.jsonl
+--tag E1 --train amz_all --method frozen_linear --epochs 3 --seed 1 --out results/E1.jsonl
+--tag E1 --train amz_all --method lora_linear --epochs 3 --seed 1 --out results/E1.jsonl
+--tag E1 --train amz_all --method ft_linear --epochs 3 --seed 2 --out results/E1.jsonl
+--tag E1 --train amz_all --method frozen_linear --epochs 3 --seed 2 --out results/E1.jsonl
+--tag E1 --train amz_all --method lora_linear --epochs 3 --seed 2 --out results/E1.jsonl
+--tag E1 --train amz_all --method ft_linear --epochs 3 --seed 3 --out results/E1.jsonl
+--tag E1 --train amz_all --method frozen_linear --epochs 3 --seed 3 --out results/E1.jsonl
+--tag E1 --train amz_all --method lora_linear --epochs 3 --seed 3 --out results/E1.jsonl

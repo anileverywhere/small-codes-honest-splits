@@ -1,0 +1,242 @@
+{
+ "amz_Books_test.jsonl": {
+  "n": 3000,
+  "sha256": "79eeda3e7b6b82566a4d74c8869ca042a2ad2142b1839e588de73e77cc4bb69b"
+ },
+ "amz_Books_train.jsonl": {
+  "n": 10000,
+  "sha256": "12c272ce0bb9fcf01bacb6302979addb45b557aaf4c83a5fb927d8ec1a7b5d40"
+ },
+ "amz_Books_val.jsonl": {
+  "n": 1500,
+  "sha256": "a4ccc47f5a4d7df76c9ce069a84f8caf70b118ee98165f23d5cbdc5e65c8227c"
+ },
+ "amz_Electronics_test.jsonl": {
+  "n": 3000,
+  "sha256": "4da7c08e2a6e30278212a02bbcb5eee8f8c7ff7a51b49173ce195277f1871ba8"
+ },
+ "amz_Electronics_train.jsonl": {
+  "n": 10000,
+  "sha256": "24af59f3d83f9d0b8c0d2cc2af8b9d22ff2a9461387cd51c579d9daa2f71eb9e"
+ },
+ "amz_Electronics_val.jsonl": {
+  "n": 1500,
+  "sha256": "140612a71c25fd4d3b82cee70eb243163ba00c78f212e899b6299e9abb153b60"
+ },
+ "amz_Home_and_Kitchen_test.jsonl": {
+  "n": 3000,
+  "sha256": "596cfbb1bdd83a4da190af3cdabd3f99b386b24bb11328ed2813a8b59ca5ae63"
+ },
+ "amz_Home_and_Kitchen_train.jsonl": {
+  "n": 10000,
+  "sha256": "18196bd0831684fb27036264d042414fc9dac6e1a3345a06e40dc36e8dd80234"
+ },
+ "amz_Home_and_Kitchen_val.jsonl": {
+  "n": 1500,
+  "sha256": "68da8bdfac0f8087edb88974562c51d39d697a40905358fb98ec899447028622"
+ },
+ "amz_Movies_and_TV_test.jsonl": {
+  "n": 3000,
+  "sha256": "6922dce70c97bce2546806ef292a1aa1e393b4575c70506dd781db71a98a7622"
+ },
+ "amz_Movies_and_TV_train.jsonl": {
+  "n": 10000,
+  "sha256": "231aae03d9f68eb759a9a4be87f0e69d7b4540e5cb25c7d173bb8c6bb8aed8f4"
+ },
+ "amz_Movies_and_TV_val.jsonl": {
+  "n": 1500,
+  "sha256": "9b4f47ea6b37330e7bb5cc20decc4aad582ebac3b0703d1367dbd4cb01f8574e"
+ },
+ "amz_inj10_Books_test.jsonl": {
+  "n": 3000,
+  "sha256": "79eeda3e7b6b82566a4d74c8869ca042a2ad2142b1839e588de73e77cc4bb69b"
+ },
+ "amz_inj10_Books_train.jsonl": {
+  "n": 10000,
+  "sha256": "0222c4e003e2e6e36958acdd3bd642cc7fd047abfe08a35054c5a427f43324e2"
+ },
+ "amz_inj10_Books_val.jsonl": {
+  "n": 1500,
+  "sha256": "a4ccc47f5a4d7df76c9ce069a84f8caf70b118ee98165f23d5cbdc5e65c8227c"
+ },
+ "amz_inj10_Electronics_test.jsonl": {
+  "n": 3000,
+  "sha256": "4da7c08e2a6e30278212a02bbcb5eee8f8c7ff7a51b49173ce195277f1871ba8"
+ },
+ "amz_inj10_Electronics_train.jsonl": {
+  "n": 10000,
+  "sha256": "2f565b09244cfa3175f9ee549e7ddc1d7cef4d153fbb581da9ced68f32fdb390"
+ },
+ "amz_inj10_Electronics_val.jsonl": {
+  "n": 1500,
+  "sha256": "140612a71c25fd4d3b82cee70eb243163ba00c78f212e899b6299e9abb153b60"
+ },
+ "amz_inj10_Home_and_Kitchen_test.jsonl": {
+  "n": 3000,
+  "sha256": "596cfbb1bdd83a4da190af3cdabd3f99b386b24bb11328ed2813a8b59ca5ae63"
+ },
+ "amz_inj10_Home_and_Kitchen_train.jsonl": {
+  "n": 10000,
+  "sha256": "0ada4ced46b6f9ddbfdaf5938e55b15e46c4c7982e20bd57019f1881631f558c"
+ },
+ "amz_inj10_Home_and_Kitchen_val.jsonl": {
+  "n": 1500,
+  "sha256": "68da8bdfac0f8087edb88974562c51d39d697a40905358fb98ec899447028622"
+ },
+ "amz_inj10_Movies_and_TV_test.jsonl": {
+  "n": 3000,
+  "sha256": "6922dce70c97bce2546806ef292a1aa1e393b4575c70506dd781db71a98a7622"
+ },
+ "amz_inj10_Movies_and_TV_train.jsonl": {
+  "n": 10000,
+  "sha256": "0d25afaec4ac9aefe20f90ced7d5b1eec33a8dd01a191986d5d85c828422327a"
+ },
+ "amz_inj10_Movies_and_TV_val.jsonl": {
+  "n": 1500,
+  "sha256": "9b4f47ea6b37330e7bb5cc20decc4aad582ebac3b0703d1367dbd4cb01f8574e"
+ },
+ "amz_inj50_Books_test.jsonl": {
+  "n": 3000,
+  "sha256": "79eeda3e7b6b82566a4d74c8869ca042a2ad2142b1839e588de73e77cc4bb69b"
+ },
+ "amz_inj50_Books_train.jsonl": {
+  "n": 10000,
+  "sha256": "73871958ffaadfb90ec365c3739efd2fe007df294782b945600700901c28edae"
+ },
+ "amz_inj50_Books_val.jsonl": {
+  "n": 1500,
+  "sha256": "a4ccc47f5a4d7df76c9ce069a84f8caf70b118ee98165f23d5cbdc5e65c8227c"
+ },
+ "amz_inj50_Electronics_test.jsonl": {
+  "n": 3000,
+  "sha256": "4da7c08e2a6e30278212a02bbcb5eee8f8c7ff7a51b49173ce195277f1871ba8"
+ },
+ "amz_inj50_Electronics_train.jsonl": {
+  "n": 10000,
+  "sha256": "09f75b690fa479969baec80c21bd0c467b10a1b6653dccc9807dd16d3bfa5f3c"
+ },
+ "amz_inj50_Electronics_val.jsonl": {
+  "n": 1500,
+  "sha256": "140612a71c25fd4d3b82cee70eb243163ba00c78f212e899b6299e9abb153b60"
+ },
+ "amz_inj50_Home_and_Kitchen_test.jsonl": {
+  "n": 3000,
+  "sha256": "596cfbb1bdd83a4da190af3cdabd3f99b386b24bb11328ed2813a8b59ca5ae63"
+ },
+ "amz_inj50_Home_and_Kitchen_train.jsonl": {
+  "n": 10000,
+  "sha256": "500bfb7096eac660f5068cb8e2e1621843318349d882739ad027e8533e9a4d0f"
+ },
+ "amz_inj50_Home_and_Kitchen_val.jsonl": {
+  "n": 1500,
+  "sha256": "68da8bdfac0f8087edb88974562c51d39d697a40905358fb98ec899447028622"
+ },
+ "amz_inj50_Movies_and_TV_test.jsonl": {
+  "n": 3000,
+  "sha256": "6922dce70c97bce2546806ef292a1aa1e393b4575c70506dd781db71a98a7622"
+ },
+ "amz_inj50_Movies_and_TV_train.jsonl": {
+  "n": 10000,
+  "sha256": "55288879f856cc506d288cd13485341941889552f984cb1e26a550403105b31b"
+ },
+ "amz_inj50_Movies_and_TV_val.jsonl": {
+  "n": 1500,
+  "sha256": "9b4f47ea6b37330e7bb5cc20decc4aad582ebac3b0703d1367dbd4cb01f8574e"
+ },
+ "amz_rand_Books_test.jsonl": {
+  "n": 3000,
+  "sha256": "f3386d842e23263cb175a891215d6af9d716d31989e539d3c3ae07ada09f687b"
+ },
+ "amz_rand_Books_train.jsonl": {
+  "n": 10000,
+  "sha256": "3a4f55f4e59b98b5ff716fd76ff54c136bc27881dae3d16c83cede276684b38b"
+ },
+ "amz_rand_Books_val.jsonl": {
+  "n": 1500,
+  "sha256": "83b8dbddd96f996ad7b699b21f6db2c601a0139880d998ab5aa4d9afbebdcb7a"
+ },
+ "amz_rand_Electronics_test.jsonl": {
+  "n": 3000,
+  "sha256": "b9a79890db99b0b1655d6b94bba78bf620d363ef35d4c740f42f2076e6ac19d1"
+ },
+ "amz_rand_Electronics_train.jsonl": {
+  "n": 10000,
+  "sha256": "725bda3641bfc157844e0153beb30de0cfa12809fa201d3c20767b09473087c4"
+ },
+ "amz_rand_Electronics_val.jsonl": {
+  "n": 1500,
+  "sha256": "f27eb4d6cc10793dec2fe772369e3f94b6158758a3000842a1b69946cd9eb3c4"
+ },
+ "amz_rand_Home_and_Kitchen_test.jsonl": {
+  "n": 3000,
+  "sha256": "977a48d102e1459fae7eb8242f0afba7803b94f6ab22b1657093dbee4edcd12d"
+ },
+ "amz_rand_Home_and_Kitchen_train.jsonl": {
+  "n": 10000,
+  "sha256": "0e78ddcf5bccc5e99bf9fd132d4cf60df627234b33e149822f3a79ceea528735"
+ },
+ "amz_rand_Home_and_Kitchen_val.jsonl": {
+  "n": 1500,
+  "sha256": "f6e51dc6c303b2ba7c1898467e2ebfe00e2c9e4a3865d7334ba631013424e472"
+ },
+ "amz_rand_Movies_and_TV_test.jsonl": {
+  "n": 3000,
+  "sha256": "91b321df30126e429bbf2a1b57f39c9b489d1ae569786a4488f3a5f49cc68f79"
+ },
+ "amz_rand_Movies_and_TV_train.jsonl": {
+  "n": 10000,
+  "sha256": "d6263811a27c00cf386b9105c2d5caf68b1dc51cf3f2160d7e97157ebcae5855"
+ },
+ "amz_rand_Movies_and_TV_val.jsonl": {
+  "n": 1500,
+  "sha256": "caaea6477501817117ab6a8555d8f4d1491e2df30bda607704b71e67d536191d"
+ },
+ "amz_randdd_Books_test.jsonl": {
+  "n": 3000,
+  "sha256": "193c46730ce4778c07fedc8f21a338ff62938be9d658d3c335ab5eba7de4c769"
+ },
+ "amz_randdd_Books_train.jsonl": {
+  "n": 10000,
+  "sha256": "bd6928f1b2373d0cbd8d92e69803f6f5d06efcad2a6e55bda35d9d8264ba553a"
+ },
+ "amz_randdd_Books_val.jsonl": {
+  "n": 1500,
+  "sha256": "29401f55a0c81daf42c941aeaa0e0231c8bfd017cee11762222a309fd16c774d"
+ },
+ "amz_randdd_Electronics_test.jsonl": {
+  "n": 3000,
+  "sha256": "4f9ff87a0bc3fac2c6c3babcfc29c532ce1e8959a55e032eb7ffefc2de68c58e"
+ },
+ "amz_randdd_Electronics_train.jsonl": {
+  "n": 10000,
+  "sha256": "34d6441945f6bae7b888879bd8d98d5132fd98460aa1ec8aa9e5b708e94e3fbe"
+ },
+ "amz_randdd_Electronics_val.jsonl": {
+  "n": 1500,
+  "sha256": "60b8572570686ec95e0dd7f6ade0727e22cd5934a155d8f018747683faa07e8d"
+ },
+ "amz_randdd_Home_and_Kitchen_test.jsonl": {
+  "n": 3000,
+  "sha256": "2d3fef9e0bdece1d145095320db317bd8464798184d78c7ee0a158f6a1bb1f8e"
+ },
+ "amz_randdd_Home_and_Kitchen_train.jsonl": {
+  "n": 10000,
+  "sha256": "4555e9bc7b7f12f7b968a913a6c317f4810dacb159528b4d7e7786fc1273d038"
+ },
+ "amz_randdd_Home_and_Kitchen_val.jsonl": {
+  "n": 1500,
+  "sha256": "fac3c6c7ee869847296217cab16adeecba84f079cf29f12b094d36a8801296f3"
+ },
+ "amz_randdd_Movies_and_TV_test.jsonl": {
+  "n": 3000,
+  "sha256": "070355ccbad65716931c9ab2cce7c571774d292d1d1d499c62268c86bbd022b4"
+ },
+ "amz_randdd_Movies_and_TV_train.jsonl": {
+  "n": 10000,
+  "sha256": "7f70f5b8abc7df1e3fc2de1baaa92f1ac74db99488401f9d91b44491deef3e13"
+ },
+ "amz_randdd_Movies_and_TV_val.jsonl": {
+  "n": 1500,
+  "sha256": "d3981691b7fdb45417eaea048739be14cd0185b4fa727abdffb890d5eac2b2b6"
+ }
+}

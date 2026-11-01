@@ -1,0 +1,7 @@
+data/
+logs/
+hf/
+.venv/
+__pycache__/
+*.pyc
+figures/

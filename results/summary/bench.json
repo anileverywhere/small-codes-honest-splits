@@ -1,0 +1,97 @@
+{
+ "cpu": "x86_64",
+ "gpu": "NVIDIA RTX A4000",
+ "torch": "2.15.0+cu132",
+ "rows": [
+  {
+   "model": "distilbert-base-uncased",
+   "d": null,
+   "params_backbone": 66362880,
+   "params_head": 3845,
+   "rep_bytes": 3072,
+   "gpu_ex_per_s": 2945.2055227378455,
+   "head_us_per_ex": 0.010226212907582521,
+   "cpu_ms_batch1": 49.70996379852295
+  },
+  {
+   "model": "distilbert-base-uncased",
+   "d": 16,
+   "params_backbone": 66362880,
+   "params_head": 12389,
+   "rep_bytes": 64,
+   "gpu_ex_per_s": 2946.780058071563,
+   "head_us_per_ex": 0.015392724890261889,
+   "cpu_ms_batch1": 47.221954663594566
+  },
+  {
+   "model": "distilbert-base-uncased",
+   "d": 32,
+   "params_backbone": 66362880,
+   "params_head": 24773,
+   "rep_bytes": 128,
+   "gpu_ex_per_s": 2925.4081952920665,
+   "head_us_per_ex": 0.01687905751168728,
+   "cpu_ms_batch1": 47.520009676615395
+  },
+  {
+   "model": "distilbert-base-uncased",
+   "d": 64,
+   "params_backbone": 66362880,
+   "params_head": 49541,
+   "rep_bytes": 256,
+   "gpu_ex_per_s": 2930.4157060015373,
+   "head_us_per_ex": 0.024554901756346226,
+   "cpu_ms_batch1": 47.34705289204915
+  },
+  {
+   "model": "distilbert-base-uncased",
+   "d": 128,
+   "params_backbone": 66362880,
+   "params_head": 99077,
+   "rep_bytes": 512,
+   "gpu_ex_per_s": 2927.02067235165,
+   "head_us_per_ex": 0.03927823854610324,
+   "cpu_ms_batch1": 47.465340296427414
+  },
+  {
+   "model": "distilbert-base-uncased",
+   "d": 256,
+   "params_backbone": 66362880,
+   "params_head": 198149,
+   "rep_bytes": 1024,
+   "gpu_ex_per_s": 2915.293942604315,
+   "head_us_per_ex": 0.06333342753350735,
+   "cpu_ms_batch1": 48.72128963470459
+  },
+  {
+   "model": "roberta-base",
+   "d": null,
+   "params_backbone": 124645632,
+   "params_head": 3845,
+   "rep_bytes": 3072,
+   "gpu_ex_per_s": 1485.6749048745728,
+   "head_us_per_ex": 0.011138326954096556,
+   "cpu_ms_batch1": 97.43170738220215
+  },
+  {
+   "model": "microsoft/deberta-v3-base",
+   "d": null,
+   "params_backbone": 183831552,
+   "params_head": 3845,
+   "rep_bytes": 3072,
+   "gpu_ex_per_s": 263.4479128043702,
+   "head_us_per_ex": 0.011508527677506208,
+   "cpu_ms_batch1": 182.6909303665161
+  },
+  {
+   "model": "answerdotai/ModernBERT-base",
+   "d": null,
+   "params_backbone": 149014272,
+   "params_head": 3845,
+   "rep_bytes": 3072,
+   "gpu_ex_per_s": 613.8449861960289,
+   "head_us_per_ex": 0.01070613507181406,
+   "cpu_ms_batch1": 145.99294662475586
+  }
+ ]
+}
