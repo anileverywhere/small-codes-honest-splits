@@ -1,8 +1,8 @@
-# Small Codes, Honest Splits
+# Compact Bottleneck Classifiers on DistilBERT
 
 Code, data-split recipes and full results for the paper
 
-> **Small Codes, Honest Splits: Bottlenecked DistilBERT for Cross-Domain Sentiment Classification**
+> **Compact Bottleneck Classifiers on DistilBERT for Cross-Domain Sentiment Analysis**
 > Jyothi K. S., G. Anil Kumar, Shantala C. P.
 > Dept. of CSE, Channabasaveshwara Institute of Technology, Gubbi, Tumkur, Karnataka, India
 
@@ -93,9 +93,9 @@ Code: MIT (see `LICENSE`). Amazon Reviews 2023, SST-5 and TweetEval keep their o
 ## Citation
 
 ```bibtex
-@inproceedings{jyothi2027smallcodes,
+@inproceedings{jyothi2027compact,
   author    = {Jyothi K. S. and G. Anil Kumar and Shantala C. P.},
-  title     = {Small Codes, Honest Splits: Bottlenecked {DistilBERT} for Cross-Domain Sentiment Classification},
+  title     = {Compact Bottleneck Classifiers on {DistilBERT} for Cross-Domain Sentiment Analysis},
   booktitle = {Proc. ICRCICN},
   year      = {2027}
 }

@@ -6,7 +6,7 @@ import matplotlib; matplotlib.use("Agg"); import matplotlib.pyplot as plt
 
 R, OUT = sys.argv[1], sys.argv[2]; os.makedirs(OUT, exist_ok=True)
 df = pd.read_csv(f"{R}/all_runs.csv")
-plt.rcParams.update({"font.size": 7, "axes.spines.top": False, "axes.spines.right": False})
+plt.rcParams.update({"font.size": 7, "axes.spines.top": False, "axes.spines.right": False, "pdf.fonttype": 42, "ps.fonttype": 42})  # TrueType: IEEE PDF eXpress rejects Type 3
 PAL = ["#1b6ca8", "#e07b39", "#3a9d5d", "#b8446b", "#7d5ba6", "#8c8c8c"]
 
 # ---- Fig: d x lambda sweep on SST-5 (val and test macro-F1)

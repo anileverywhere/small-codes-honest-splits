@@ -3,7 +3,7 @@ import matplotlib; matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 from matplotlib.patches import FancyBboxPatch, FancyArrowPatch
 
-plt.rcParams.update({"font.size": 6.2, "mathtext.fontset": "dejavusans"})
+plt.rcParams.update({"font.size": 6.2, "mathtext.fontset": "dejavusans", "pdf.fonttype": 42, "ps.fonttype": 42})  # TrueType: IEEE PDF eXpress rejects Type 3
 fig, ax = plt.subplots(figsize=(3.45, 2.15)); ax.set_xlim(0, 100); ax.set_ylim(0, 66); ax.axis("off")
 
 
@@ -32,5 +32,5 @@ arr((59, 43.5), (59, 35.5), True); arr((71.5, 29.5), (75.5, 29.5), True)
 box(16, 4, 26, 11, "Frozen pretrained\n" + r"DistilBERT $f_{\theta_0}$", "#eeeeee", "--")
 box(47, 4, 24, 11, r"target $\mathrm{LN}(\bar{\mathbf{x}})$", "#eeeeee", "--")
 arr((6, 43.5), (15.5, 10), True); arr((42.5, 9.5), (46.5, 9.5), True); arr((71.5, 9.5), (87, 23.5), True)
-plt.savefig("../paper_conf/figures/architecture.pdf", bbox_inches="tight", pad_inches=0.02)
-plt.savefig("../paper_conf/figures/architecture.png", dpi=200, bbox_inches="tight", pad_inches=0.02)
+plt.savefig("figures/architecture.pdf", bbox_inches="tight", pad_inches=0.02)
+plt.savefig("figures/architecture.png", dpi=200, bbox_inches="tight", pad_inches=0.02)
